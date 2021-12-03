@@ -41,3 +41,5 @@ Depois, é só executar:
 ```
 python virtual-assistant.py
 ```
+
+referências: `https://github.com/iuricode/readme-template`
