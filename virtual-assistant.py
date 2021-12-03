@@ -1,7 +1,4 @@
-from multiprocessing.sharedctypes import Value
-from time import sleep
 from sys import platform
-from click import command
 import speech_recognition as sr
 import json
 import os
