@@ -30,7 +30,6 @@ cd Virtual-Assistant
 git clone https://github.com/M3L4O/Virtual-Assistant.git
 virtualenv env
 pip install -r requirements.txt
-
 ```
 Após isso, olhe as outras dependências que faltam.
 
@@ -42,4 +41,4 @@ Depois, é só executar:
 python virtual-assistant.py
 ```
 
-referências: [`readme-template`](https://github.com/iuricode/readme-template)
+Referências: [`readme-template`](https://github.com/iuricode/readme-template)
