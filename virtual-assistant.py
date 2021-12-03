@@ -53,7 +53,7 @@ def delete_cmd():
 
 def to_list():
     print('\n'.join(str(f'{key}: {value}') for key, value in commands.items()))
-    input('Tecle qualquer tecla para continuar')
+    input('Tecle qualquer tecla para continuar ')
 
 def commands_central(key):
     print(key)
