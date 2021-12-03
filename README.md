@@ -42,4 +42,4 @@ Depois, é só executar:
 python virtual-assistant.py
 ```
 
-referências: `https://github.com/iuricode/readme-template`
+referências: [`readme-template`](https://github.com/iuricode/readme-template)
