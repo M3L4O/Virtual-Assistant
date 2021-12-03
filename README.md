@@ -29,6 +29,7 @@ mkdir Virtual-Assistant
 cd Virtual-Assistant
 git clone https://github.com/M3L4O/Virtual-Assistant.git
 virtualenv env
+source env/bin/activate
 pip install -r requirements.txt
 ```
 Após isso, olhe as outras dependências que faltam.
