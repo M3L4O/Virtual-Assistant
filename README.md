@@ -6,8 +6,8 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-[] Adicionar as dependências além das utilizadas pelo PIP.
-[] Criar uma interface gráfica.
+- [ ] Adicionar as dependências além das utilizadas pelo PIP.
+- [ ] Criar uma interface gráfica.
 
 ## 💻 Pré-requisitos
 
