@@ -1,5 +1,6 @@
 # Virtual-Assistant
-![version 1](https://img.shields.io/badge/version-1-green)
+<img src"https://img.shields.io/badge/version-1-green">
+<img src"https://img.shields.io/badge/status-development-green">
 > Programa que serve para adicionar ou remover comandos de voz, bem como utilizá-los. Funciona apenas em Linux, Zorin OS 16 em especifico.
 
 ### Ajustes e melhorias
