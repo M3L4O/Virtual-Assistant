@@ -1,7 +1,8 @@
+from time import sleep
+from sys import platform
 import speech_recognition as sr
 import os
-from sys import platform
-import asyncio
+
 #global vars
 r = sr.Recognizer()
 mic = sr.Microphone()
@@ -13,13 +14,13 @@ def clear():
     elif platform.startswith('win'):
         os.system('cls')
 
-
-async def commands(text):
+ 
+def commands(text):
     print(text)
-    if text == "abrir editor":
-         os.system('code-insiders')
+    if text == "abrir vs code":
+        os.system('code-insiders')
     elif text == "abrir navegador":
-         os.system('brave-browser')
+        os.system('brave-browser --disable-gpu --disable-software-rasterizer')
     elif text.startswith('encerrar'):
         return True
     
@@ -40,12 +41,15 @@ def listen():
         return 'Não entendi!'
 
 
-async def main():
+def main():
     _break = False
     clear()
     while not _break:
         text = listen()
-        _break = await commands(text)
+        _break = commands(text)
+        sleep(2)
+        
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
+    
